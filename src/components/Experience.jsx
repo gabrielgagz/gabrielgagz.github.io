@@ -15,7 +15,7 @@ const Experience = () => {
                     {experiences.map((exp, index) => (
                         <div key={exp.id} className="timeline-item">
                             <div className="timeline-marker"></div>
-                            <div className="timeline-content">
+                            <div className="timeline-content" data-index={index + 1}>
                                 <div className="timeline-header">
                                     <h3 className="timeline-role">{exp.role}</h3>
                                     <div className="timeline-company">

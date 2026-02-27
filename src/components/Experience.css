@@ -2,50 +2,24 @@
     background-color: rgba(30, 41, 59, 0.3);
 }
 
+/* === GRID LAYOUT (like Skills) === */
 .timeline {
-    position: relative;
-    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 1100px;
     margin: 0 auto;
-    padding: 2rem 0;
 }
 
-.timeline::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 20px;
-    height: 100%;
-    width: 2px;
-    background: linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary));
-    opacity: 0.3;
-}
-
+/* Each card */
 .timeline-item {
     position: relative;
-    margin-bottom: 3rem;
-    padding-left: 60px;
 }
 
-.timeline-item:last-child {
-    margin-bottom: 0;
-}
-
+/* The dot/marker is repurposed as a numbered badge in top-left */
 .timeline-marker {
-    position: absolute;
-    left: 12px;
-    top: 0;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    background: var(--bg-primary);
-    border: 3px solid var(--accent-primary);
-    box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
-    transition: transform var(--transition-normal);
-}
-
-.timeline-item:hover .timeline-marker {
-    transform: scale(1.3);
-    background: var(--accent-primary);
+    display: none;
+    /* hide old dot marker */
 }
 
 .timeline-content {
@@ -55,17 +29,50 @@
     border: 1px solid rgba(255, 255, 255, 0.05);
     box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.2);
     transition: all var(--transition-normal);
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Subtle left accent line as "timeline" feel */
+.timeline-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 4px;
+    background: linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary));
+    border-radius: 4px 0 0 4px;
 }
 
 .timeline-item:hover .timeline-content {
     border-color: rgba(139, 92, 246, 0.3);
     box-shadow: 0 10px 30px -10px rgba(139, 92, 246, 0.2);
+    transform: translateY(-4px);
+}
+
+/* Timeline "step" number badge */
+.timeline-content::after {
+    content: attr(data-index);
+    position: absolute;
+    top: 1.25rem;
+    right: 1.5rem;
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.04);
+    line-height: 1;
+    pointer-events: none;
+    user-select: none;
 }
 
 .timeline-role {
-    font-size: 1.35rem;
+    font-size: 1.2rem;
     color: var(--text-primary);
     margin-bottom: 0.75rem;
+    padding-right: 2rem;
+    /* avoid overlap with ghost number */
 }
 
 .timeline-company,
@@ -73,9 +80,8 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: var(--text-secondary);
-    font-size: 0.95rem;
-    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
 }
 
 .timeline-company {
@@ -84,17 +90,17 @@
 }
 
 .timeline-duration {
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     color: var(--accent-primary);
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.1rem;
     opacity: 0.9;
 }
 
 .timeline-description {
     color: var(--text-secondary);
     line-height: 1.7;
-    margin-bottom: 1.5rem;
-    font-size: 0.95rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.92rem;
 }
 
 .timeline-tags {
@@ -106,9 +112,9 @@
 .timeline-tag {
     background: rgba(255, 255, 255, 0.05);
     color: var(--text-secondary);
-    padding: 0.35rem 0.85rem;
+    padding: 0.3rem 0.75rem;
     border-radius: 100px;
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     font-weight: 500;
     border: 1px solid rgba(255, 255, 255, 0.1);
     transition: all var(--transition-fast);
@@ -120,37 +126,9 @@
     border-color: rgba(59, 130, 246, 0.3);
 }
 
-@media (min-width: 768px) {
-    .timeline::before {
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .timeline-marker {
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .timeline-item:nth-child(even) {
-        padding-left: 0;
-        padding-right: calc(50% + 30px);
-    }
-
-    .timeline-item:nth-child(odd) {
-        padding-left: calc(50% + 30px);
-    }
-
-    .timeline-item:nth-child(even) .timeline-content {
-        text-align: right;
-    }
-
-    .timeline-item:nth-child(even) .timeline-company,
-    .timeline-item:nth-child(even) .timeline-duration,
-    .timeline-item:nth-child(even) .timeline-tags {
-        justify-content: flex-end;
-    }
-
-    .timeline-item:hover .timeline-marker {
-        transform: translateX(-50%) scale(1.3);
+/* === RESPONSIVE GRID (2 columns like Skills) === */
+@media (min-width: 640px) {
+    .timeline {
+        grid-template-columns: 1fr 1fr;
     }
 }

@@ -134,8 +134,7 @@
 }
 
 .hero-image-container:hover .hero-profile-pic {
-    transform: scale(1.1);
-    filter: grayscale(0%) contrast(1) brightness(1);
+    transform: scale(1.08);
 }
 
 @keyframes pulse {
