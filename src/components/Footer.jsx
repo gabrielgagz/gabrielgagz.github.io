@@ -7,9 +7,9 @@ const Footer = () => {
             <div className="container footer-container">
                 <div className="footer-top">
                     <div className="footer-brand">
-                        <h2 className="footer-logo gradient-text">&lt;Gabriel /&gt;</h2>
+                        <h2 className="footer-logo gradient-text">Gabriel Gomez</h2>
                         <p className="footer-slogan">
-                            Transformando ideas en soluciones tecnológicas eficientes.
+                            Liderando equipos ágiles y construyendo soluciones IT de alto impacto.
                         </p>
                     </div>
 
@@ -26,11 +26,11 @@ const Footer = () => {
                     <div className="footer-contact">
                         <h3>Conéctate</h3>
                         <div className="footer-social">
-                            <a href="https://github.com/gabrielgomez" target="_blank" rel="noopener noreferrer" className="social-link">
+                            <a href="https://github.com/gabrielgagz" target="_blank" rel="noopener noreferrer" className="social-link">
                                 <Github size={20} />
                                 <span>GitHub</span>
                             </a>
-                            <a href="https://linkedin.com/in/gabriel-alejandro-gomez-bb" target="_blank" rel="noopener noreferrer" className="social-link">
+                            <a href="https://linkedin.com/in/gabrielgagz" target="_blank" rel="noopener noreferrer" className="social-link">
                                 <Linkedin size={20} />
                                 <span>LinkedIn</span>
                             </a>

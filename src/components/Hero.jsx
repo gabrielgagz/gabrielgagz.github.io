@@ -1,6 +1,8 @@
 import './Hero.css';
 import { ChevronRight, Download } from 'lucide-react';
 
+import profilePic from '../assets/profile.jpg';
+
 const Hero = () => {
     return (
         <section id="home" className="hero container">
@@ -10,9 +12,9 @@ const Hero = () => {
                 <h3 className="hero-role gradient-text">Agile / IT Project Coordinator | Software Developer</h3>
 
                 <p className="hero-description">
-                    Coordinador de proyectos y desarrollador de software con experiencia en metodologías ágiles
-                    y resolución de problemas. Me apasiona crear soluciones eficientes y guiar equipos
-                    hacia el éxito técnico y organizativo.
+                    Profesional IT con más de 15 años de experiencia técnica integral.
+                    Actualmente enfocado en el liderazgo de equipos a través de metodologías ágiles,
+                    transformando necesidades complejas en soluciones eficientes y escalables.
                 </p>
 
                 <div className="hero-cta">
@@ -27,8 +29,8 @@ const Hero = () => {
 
             <div className="hero-visual">
                 <div className="glow-orb"></div>
-                <div className="hero-image-placeholder">
-                    <span className="gradient-text">&lt;G/&gt;</span>
+                <div className="hero-image-container">
+                    <img src={profilePic} alt="Gabriel Gomez" className="hero-profile-pic" />
                 </div>
             </div>
         </section>

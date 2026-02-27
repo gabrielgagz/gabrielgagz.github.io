@@ -12,14 +12,10 @@ const About = () => {
                 <div className="about-content">
                     <div className="about-text-content">
                         <p className="about-text">
-                            Tengo más de 3 años de experiencia trabajando con metodologías ágiles
-                            (Scrum y Kanban), enfocándome en la autogestión y el trabajo en equipo
-                            para lograr una eficiencia óptima y alcanzar objetivos.
+                            Cuento con más de 15 años de trayectoria en el mundo IT, abarcando áreas clave como el desarrollo web, seguridad informática, Cloud y Data.
                         </p>
                         <p className="about-text">
-                            Como desarrollador y coordinador de proyectos, disfruto crear soluciones de software
-                            innovadoras. Poseo habilidades en el ingreso de datos asegurando siempre su calidad e
-                            integridad. Mi enfoque principal es guiar equipos técnicos hacia el éxito.
+                            Actualmente, mi enfoque principal está centrado en el liderazgo de equipos técnicos a través de metodologías ágiles (Scrum y Kanban), guiando a los profesionales hacia la autogestión, la eficiencia óptima y la consecución de objetivos estratégicos.
                         </p>
                     </div>
 

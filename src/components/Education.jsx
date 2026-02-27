@@ -31,13 +31,28 @@ const Education = () => {
 
                         <div className="cert-cards">
                             <div className="edu-card">
+                                <h4 className="edu-title">Scrum Foundation Professional Certificate (SFPC)</h4>
+                                <p className="edu-institution">CertiProf</p>
+                            </div>
+
+                            <div className="edu-card">
                                 <h4 className="edu-title">Fundamentos para la Gestión de Proyectos de Software</h4>
                                 <p className="edu-institution">Alkemy Labs</p>
                             </div>
 
                             <div className="edu-card">
-                                <h4 className="edu-title">Becoming an Agile Coach</h4>
-                                <p className="edu-institution">LinkedIn Learning</p>
+                                <h4 className="edu-title">Agile Coach & Scrum Master Experto</h4>
+                                <p className="edu-institution">LinkedIn Learning / Educación IT</p>
+                            </div>
+
+                            <div className="edu-card">
+                                <h4 className="edu-title">Seguridad Informática y Redes IP</h4>
+                                <p className="edu-institution">Fundación Telefónica / Capacitación IT</p>
+                            </div>
+
+                            <div className="edu-card">
+                                <h4 className="edu-title">Cloud Computing & AWS Architectur Basic</h4>
+                                <p className="edu-institution">Introducción Cloud</p>
                             </div>
                         </div>
                     </div>
