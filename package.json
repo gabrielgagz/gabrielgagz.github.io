@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://gabrielgomez.github.io/Portfolio/",
+  "homepage": "https://gabrielgagz.github.io/gabrielgagz/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
