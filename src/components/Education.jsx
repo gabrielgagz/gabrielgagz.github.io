@@ -20,6 +20,9 @@ const Education = () => {
                             <h4 className="edu-title">Técnico Superior en Programación</h4>
                             <p className="edu-institution">Teclab Instituto Técnico Superior</p>
                             <p className="edu-date">2020 - 2023</p>
+                            <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', marginTop: '0.75rem', lineHeight: '1.6' }}>
+                                Carrera técnica de 3 años con enfoque integral en ingeniería de software. Materias cursadas: Programación Orientada a Objetos, Desarrollo Web (HTML, CSS, JS), Bases de Datos Relacionales, Arquitectura y Redes, Análisis de Sistemas y Metodologías Ágiles. Trabajo práctico final: desarrollo de una aplicación web completa de gestión, cubriendo análisis, diseño, implementación y despliegue.
+                            </p>
                         </div>
                     </div>
 

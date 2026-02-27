@@ -12,10 +12,10 @@ export const experiencesInfo = [
   {
     id: 2,
     role: "Tutor de Práctica Profesionalizante",
-    company: "Social Learning / Educación IT",
+    company: "Social Learning / Educación IT — Argentina, Chile y México",
     duration: "Agosto 2023 - Presente",
-    description: "Guía a estudiantes en la comprensión de tecnologías, resolviendo impedimentos y liderando el diseño arquitectónico de soluciones.",
-    skills: ["Mentoring", "Architecture", "Problem Solving", "Agile"]
+    description: "Tutoría y acompañamiento de estudiantes de carreras técnicas en Argentina, Chile y México de manera remota. Guío a los equipos para que, mediante tecnologías como React, Node.js y bases de datos SQL/NoSQL, lleven adelante sus proyectos profesionalizantes de forma autónoma. Mi rol es orientar el diseño arquitectónico, desbloquear impedimentos técnicos, realizar code reviews y acompañar el ciclo de vida completo del proyecto — siempre fomentando la autogestión y el razonamiento propio del estudiante.",
+    skills: ["Mentoring", "Remote Teaching", "Architecture", "Code Review", "Scrum", "React", "Node.js"]
   },
   {
     id: 3,
@@ -27,11 +27,19 @@ export const experiencesInfo = [
   },
   {
     id: 4,
+    role: "Desarrollador Web y Mobile",
+    company: "Empresariales",
+    duration: "2018 - 2022",
+    description: "Desarrollo de aplicaciones web y móviles a medida para clientes empresariales. Diseño e implementación de soluciones full-stack adaptadas a procesos internos, mejorando la eficiencia operativa y la experiencia del usuario.",
+    skills: ["Mobile Development", "Web Development", "Full-Stack", "UI/UX", "Client Management"]
+  },
+  {
+    id: 5,
     role: "Team Leader / Software Developer / Soporte IT",
     company: "Asociación de Trabajadores de la Sanidad (ATSA) - Filial Bahía Blanca",
     duration: "Septiembre 2006 - Presente",
-    description: "Desarrollo de aplicaciones internas, coordinación de equipos multidisciplinarios, resolución de problemas y soporte IT. Gestión de recursos e infraestructura.",
-    skills: ["Team Leadership", "Software Development", "IT Support", "Project Coordination"]
+    description: "Más de 18 años liderando el área de Sistemas de ATSA Bahía Blanca. Responsable del desarrollo e implementación de soluciones tecnológicas integrales: sistemas de gestión de afiliados, automatización de procesos administrativos e infraestructura IT. Lidero un equipo técnico multidisciplinario coordinando desarrollo, soporte y mantenimiento. Gestión de servidores Linux/Windows, bases de datos MySQL y despliegue de aplicaciones web. Proyecto más reciente: Carnet Digital para afiliados — una aplicación web full-stack (React + PHP + MySQL) que permite a cada afiliado generar y presentar su credencial digital verificable desde cualquier dispositivo, eliminando el carnet físico y mejorando la accesibilidad del servicio.",
+    skills: ["Team Leadership", "PHP / Laravel", "React", "MySQL", "Linux Server", "IT Infrastructure", "Digital Credential", "Agile Project Management"]
   }
 ];
 
