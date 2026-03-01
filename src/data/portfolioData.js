@@ -3,61 +3,53 @@
 export const experiencesInfo = [
   {
     id: 1,
-    role: "Consultor IT Freelance",
-    company: "Independiente",
-    duration: "2010 - Presente",
-    description: "Consultoría tecnológica integral abarcando todas las ramas IT: Desarrollo Web, Seguridad Informática, Arquitectura Cloud y Gestión de Datos. Adaptación de soluciones a medida para diversas necesidades empresariales.",
-    skills: ["Web Development", "Cybersecurity", "Cloud Architecture", "Data Management", "IT Consulting"]
+    role: "Team Leader / Software Developer / IT Support",
+    company: "ATSA Bahía Blanca",
+    duration: "2007 - Presente",
+    description: "Lidero iniciativas internas de software y operaciones IT, coordinando prioridades, tareas y dependencias entre áreas técnicas y de gestión. Facilito dinámicas ágiles de planificación y seguimiento para mejorar previsibilidad y cumplimiento. Impulsé mejoras de digitalización que redujeron errores manuales y sostuve la continuidad operativa del área durante más de 18 años.",
+    skills: ["Team Leadership", "Project Coordination", "Stakeholder Management", "Scrum/Kanban", "Delivery Tracking", "Risk & Issue Management"]
   },
   {
     id: 2,
-    role: "Tutor de Práctica Profesionalizante",
-    company: "Social Learning / Educación IT — Argentina, Chile y México",
-    duration: "Agosto 2023 - Presente",
-    description: "Tutoría y acompañamiento de estudiantes de carreras técnicas en Argentina, Chile y México de manera remota. Guío a los equipos para que, mediante tecnologías como React, Node.js y bases de datos SQL/NoSQL, lleven adelante sus proyectos profesionalizantes de forma autónoma. Mi rol es orientar el diseño arquitectónico, desbloquear impedimentos técnicos, realizar code reviews y acompañar el ciclo de vida completo del proyecto — siempre fomentando la autogestión y el razonamiento propio del estudiante.",
-    skills: ["Mentoring", "Remote Teaching", "Architecture", "Code Review", "Scrum", "React", "Node.js"]
+    role: "Scrum Facilitator / Professional Practice Tutor",
+    company: "Teclab / Social Learning",
+    duration: "2023 - Presente",
+    description: "Facilito ceremonias ágiles (daily, planning, review y retrospective), organizo sprints y acompaño equipos multidisciplinarios en entornos EdTech. Coordino objetivos con actores académicos y técnicos, gestiono bloqueos y priorización, y refuerzo la adopción de roles, artefactos y eventos Scrum con foco en entrega de valor y mejora continua.",
+    skills: ["Scrum Mastery", "Agile Facilitation", "Kanban", "Backlog Prioritization", "Mentoring", "Continuous Improvement"]
   },
   {
     id: 3,
-    role: "Gestor de Proyectos de Software",
+    role: "Project Coordinator (Software)",
     company: "Alkemy",
     duration: "2023",
-    description: "Participación en simulaciones de entorno laboral real, aplicando metodologías ágiles para el desarrollo de productos de software en equipo.",
-    skills: ["Scrum", "Project Management", "Team Collaboration", "Software Lifecycle"]
+    description: "Participé en proyectos colaborativos con dinámicas de entorno real, aplicando prácticas ágiles de planificación, seguimiento y coordinación de entregables para productos de software.",
+    skills: ["Project Management", "Sprint Planning", "Team Collaboration", "Software Lifecycle"]
   },
   {
     id: 4,
-    role: "Desarrollador Web y Mobile",
-    company: "Empresariales",
-    duration: "2018 - 2022",
-    description: "Desarrollo de aplicaciones web y móviles a medida para clientes empresariales. Diseño e implementación de soluciones full-stack adaptadas a procesos internos, mejorando la eficiencia operativa y la experiencia del usuario.",
-    skills: ["Mobile Development", "Web Development", "Full-Stack", "UI/UX", "Client Management"]
-  },
-  {
-    id: 5,
-    role: "Team Leader / Software Developer / Soporte IT",
-    company: "Asociación de Trabajadores de la Sanidad (ATSA) - Filial Bahía Blanca",
-    duration: "Septiembre 2006 - Presente",
-    description: "Más de 18 años liderando el área de Sistemas de ATSA Bahía Blanca. Responsable del desarrollo e implementación de soluciones tecnológicas integrales: sistemas de gestión de afiliados, automatización de procesos administrativos e infraestructura IT. Lidero un equipo técnico multidisciplinario coordinando desarrollo, soporte y mantenimiento. Gestión de servidores Linux/Windows, bases de datos MySQL y despliegue de aplicaciones web. Proyecto más reciente: Carnet Digital para afiliados — una aplicación web full-stack (React + PHP + MySQL) que permite a cada afiliado generar y presentar su credencial digital verificable desde cualquier dispositivo, eliminando el carnet físico y mejorando la accesibilidad del servicio.",
-    skills: ["Team Leadership", "PHP / Laravel", "React", "MySQL", "Linux Server", "IT Infrastructure", "Digital Credential", "Agile Project Management"]
+    role: "IT Consultant / Full-Stack Developer",
+    company: "Freelance",
+    duration: "2010 - Presente",
+    description: "Desarrollo soluciones web a medida e implemento mejoras en procesos internos para distintos clientes, integrando desarrollo full-stack con soporte técnico y análisis funcional.",
+    skills: ["React", "Node.js", "PHP", "MySQL", "MongoDB", "Technical Consulting"]
   }
 ];
 
 export const skillsInfo = [
   { 
     category: "Metodologías y Liderazgo", 
-    items: ["Scrum Master", "Kanban", "Agile Leadership", "Waterfall", "IT Project Coordination", "Team Management", "Coaching & Mentoring"] 
+    items: ["Scrum Master", "Kanban", "Agile Leadership", "Team Leadership", "Project Management", "Sprint Planning", "Retrospectives", "Coaching & Mentoring"] 
   },
   { 
-    category: "Hard Skills (Desarrollo & Datos)", 
-    items: ["React", "JavaScript / ES6+", "HTML5 / CSS3", "Node.js", "SQL & Database Design", "Data Entry & Integrity", "Cloud Architecture Basics", "Cybersecurity Principles"] 
+    category: "Gestión de Delivery", 
+    items: ["Stakeholder Management", "Roadmap & Prioritization", "Gestión de Riesgos", "Seguimiento de KPIs", "Resolución de Bloqueos", "Comunicación Técnica/Negocio", "Mejora Continua"] 
   },
   { 
-    category: "Soft Skills", 
-    items: ["Resolución de Problemas", "Comunicación Asertiva", "Pensamiento Analítico", "Adaptabilidad", "Trabajo en Equipo", "Toma de Decisiones", "Gestión del Tiempo"] 
+    category: "Hard Skills (Soporte Técnico)", 
+    items: ["React", "Node.js", "Express", "PHP", "MySQL / MongoDB", "Linux", "Troubleshooting", "Cloud Fundamentals (AWS)"] 
   },
   { 
     category: "Herramientas IT", 
-    items: ["Git / GitHub", "Jira / Trello / Asana", "Figma", "Soporte IT (Hardware/Software)", "Linux / Windows Server"] 
+    items: ["Jira", "Trello", "Git / GitHub", "GitLab / Bitbucket", "Confluence", "Linux / Windows Server"] 
   }
 ];

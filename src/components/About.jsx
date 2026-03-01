@@ -12,10 +12,10 @@ const About = () => {
                 <div className="about-content">
                     <div className="about-text-content">
                         <p className="about-text">
-                            Cuento con más de 15 años de trayectoria en el mundo IT, abarcando áreas clave como el desarrollo web, seguridad informática, Cloud y Data.
+                            Cuento con más de 18 años de trayectoria en IT liderando equipos, coordinando iniciativas tecnológicas y gestionando la entrega de proyectos en entornos de alta demanda operativa.
                         </p>
                         <p className="about-text">
-                            Actualmente, mi enfoque principal está centrado en el liderazgo de equipos técnicos a través de metodologías ágiles (Scrum y Kanban), guiando a los profesionales hacia la autogestión, la eficiencia óptima y la consecución de objetivos estratégicos.
+                            Mi foco actual está en roles de Team Leader, Project Manager y Scrum Master: facilitación de ceremonias ágiles, alineación con stakeholders, priorización de backlog, gestión de riesgos y mejora continua orientada a resultados.
                         </p>
                     </div>
 
@@ -23,19 +23,19 @@ const About = () => {
                         <div className="about-card">
                             <div className="card-icon"><Users size={32} /></div>
                             <h3>Liderazgo Ágil</h3>
-                            <p>Experiencia en Scrum/Kanban y coordinación de equipos eficientes.</p>
+                            <p>Facilitación de Scrum/Kanban, coaching de equipos y gestión de impedimentos.</p>
                         </div>
 
                         <div className="about-card">
                             <div className="card-icon"><Terminal size={32} /></div>
-                            <h3>Desarrollo</h3>
-                            <p>Creación de software enfocado en resolución de problemas reales.</p>
+                            <h3>Base Técnica</h3>
+                            <p>Background en desarrollo y soporte IT para decidir con criterio técnico y de negocio.</p>
                         </div>
 
                         <div className="about-card">
                             <div className="card-icon"><Target size={32} /></div>
                             <h3>Gestión de Proyectos</h3>
-                            <p>Planificación, seguimiento QA y cumplimiento de objetivos orientados al negocio.</p>
+                            <p>Planificación, seguimiento de entregables, coordinación de stakeholders y foco en valor.</p>
                         </div>
                     </div>
                 </div>

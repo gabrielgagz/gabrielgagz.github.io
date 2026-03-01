@@ -49,12 +49,17 @@ const Education = () => {
                             </div>
 
                             <div className="edu-card">
+                                <h4 className="edu-title">English Certificate C1 Advanced</h4>
+                                <p className="edu-institution">International English Test</p>
+                            </div>
+
+                            <div className="edu-card">
                                 <h4 className="edu-title">Seguridad Informática y Redes IP</h4>
                                 <p className="edu-institution">Fundación Telefónica / Capacitación IT</p>
                             </div>
 
                             <div className="edu-card">
-                                <h4 className="edu-title">Cloud Computing & AWS Architectur Basic</h4>
+                                <h4 className="edu-title">Cloud Computing & AWS Architecture Basics</h4>
                                 <p className="edu-institution">Introducción Cloud</p>
                             </div>
                         </div>
