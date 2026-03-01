@@ -114,11 +114,13 @@
 
 @media (min-width: 968px) {
     .footer-top {
-        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        align-items: start;
     }
 
     .footer-bottom {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 2rem;
     }
 }

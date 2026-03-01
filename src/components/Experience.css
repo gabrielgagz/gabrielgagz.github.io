@@ -1,5 +1,5 @@
 .experience {
-    background-color: rgba(30, 41, 59, 0.3);
+    background-color: var(--bg-primary);
 }
 
 /* === GRID LAYOUT (like Skills) === */
@@ -27,52 +27,21 @@
     padding: 2rem;
     border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 0.05);
-    box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.2);
-    transition: all var(--transition-normal);
+    transition: transform var(--transition-normal);
     height: 100%;
     position: relative;
-    overflow: hidden;
-}
-
-/* Subtle left accent line as "timeline" feel */
-.timeline-content::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 4px;
-    background: linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary));
-    border-radius: 4px 0 0 4px;
 }
 
 .timeline-item:hover .timeline-content {
-    border-color: rgba(139, 92, 246, 0.3);
-    box-shadow: 0 10px 30px -10px rgba(139, 92, 246, 0.2);
-    transform: translateY(-4px);
-}
-
-/* Timeline "step" number badge */
-.timeline-content::after {
-    content: attr(data-index);
-    position: absolute;
-    top: 1.25rem;
-    right: 1.5rem;
-    font-family: var(--font-heading);
-    font-size: 3rem;
-    font-weight: 700;
-    color: rgba(255, 255, 255, 0.04);
-    line-height: 1;
-    pointer-events: none;
-    user-select: none;
+    border-color: rgba(59, 130, 246, 0.2);
+    box-shadow: 0 10px 30px -10px rgba(59, 130, 246, 0.15);
+    transform: translateY(-5px);
 }
 
 .timeline-role {
     font-size: 1.2rem;
     color: var(--text-primary);
     margin-bottom: 0.75rem;
-    padding-right: 2rem;
-    /* avoid overlap with ghost number */
 }
 
 .timeline-company,
@@ -110,7 +79,7 @@
 }
 
 .timeline-tag {
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--bg-primary);
     color: var(--text-secondary);
     padding: 0.3rem 0.75rem;
     border-radius: 100px;

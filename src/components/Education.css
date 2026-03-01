@@ -1,5 +1,5 @@
 .education {
-    background-color: rgba(30, 41, 59, 0.15);
+    background-color: var(--bg-primary);
 }
 
 .section-header {
@@ -40,28 +40,14 @@
     padding: 1.75rem 1.75rem 1.75rem 2rem;
     border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 0.05);
-    box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.2);
-    transition: all var(--transition-normal);
+    transition: transform var(--transition-normal);
     position: relative;
-    overflow: hidden;
-}
-
-/* Left accent bar — timeline feel */
-.edu-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 4px;
-    background: linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary));
-    border-radius: 4px 0 0 4px;
 }
 
 .edu-card:hover {
-    border-color: rgba(139, 92, 246, 0.3);
-    box-shadow: 0 10px 30px -10px rgba(139, 92, 246, 0.2);
-    transform: translateY(-4px);
+    border-color: rgba(59, 130, 246, 0.2);
+    box-shadow: 0 10px 30px -10px rgba(59, 130, 246, 0.15);
+    transform: translateY(-5px);
 }
 
 .edu-title {

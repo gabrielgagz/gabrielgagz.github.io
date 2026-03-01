@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 
 const footerText = {
     en: {
-        slogan: 'Leading agile teams and building high-impact IT solutions.',
+        slogan: 'Helping teams deliver better software with clarity, cadence, and ownership.',
         quickLinks: 'Quick Links',
         home: 'Home',
         about: 'About',
@@ -15,7 +15,7 @@ const footerText = {
         ending: 'for technology.',
     },
     es: {
-        slogan: 'Liderando equipos ágiles y construyendo soluciones IT de alto impacto.',
+        slogan: 'Ayudando a los equipos a entregar mejor software con claridad, cadencia y ownership.',
         quickLinks: 'Enlaces Rápidos',
         home: 'Inicio',
         about: 'Sobre Mí',

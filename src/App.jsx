@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -9,12 +9,32 @@ import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
 import './App.css'
 
+const THEME_STORAGE_KEY = 'portfolio-theme'
+
 function App() {
   const [language, setLanguage] = useState('en')
+  const [theme, setTheme] = useState(() => {
+    if (typeof window === 'undefined') return 'dark'
+    return window.localStorage.getItem(THEME_STORAGE_KEY) || 'dark'
+  })
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme)
+    window.localStorage.setItem(THEME_STORAGE_KEY, theme)
+  }, [theme])
+
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'))
+  }
 
   return (
     <div className="app">
-      <Navbar language={language} onLanguageChange={setLanguage} />
+      <Navbar
+        language={language}
+        onLanguageChange={setLanguage}
+        theme={theme}
+        onThemeToggle={toggleTheme}
+      />
       <Hero language={language} />
       <About language={language} />
       <Experience language={language} />

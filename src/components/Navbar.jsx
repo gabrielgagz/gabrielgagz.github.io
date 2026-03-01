@@ -1,5 +1,5 @@
 import './Navbar.css';
-import { Github, Linkedin, Mail, Menu, X } from 'lucide-react';
+import { Github, Linkedin, Mail, Menu, Moon, Sun, X } from 'lucide-react';
 import { useState } from 'react';
 
 const navText = {
@@ -8,16 +8,18 @@ const navText = {
         experience: 'Experience',
         skills: 'Skills',
         languageAria: 'Language selector',
+        themeAria: 'Theme switch',
     },
     es: {
         about: 'Sobre Mí',
         experience: 'Experiencia',
         skills: 'Habilidades',
         languageAria: 'Selector de idioma',
+        themeAria: 'Selector de tema',
     },
 };
 
-const Navbar = ({ language, onLanguageChange }) => {
+const Navbar = ({ language, onLanguageChange, theme, onThemeToggle }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const t = navText[language] ?? navText.en;
 
@@ -56,6 +58,15 @@ const Navbar = ({ language, onLanguageChange }) => {
                             ES
                         </button>
                     </div>
+                    <button
+                        type="button"
+                        className="theme-btn"
+                        onClick={onThemeToggle}
+                        aria-label={t.themeAria}
+                        title={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+                    >
+                        {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
+                    </button>
                     <a href="https://github.com/gabrielgagz" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                         <Github size={20} />
                     </a>
@@ -93,6 +104,16 @@ const Navbar = ({ language, onLanguageChange }) => {
                             onClick={() => onLanguageChange('es')}
                         >
                             ES
+                        </button>
+                    </div>
+                    <div className="mobile-theme-switch">
+                        <button
+                            type="button"
+                            className="theme-btn"
+                            onClick={onThemeToggle}
+                            aria-label={t.themeAria}
+                        >
+                            {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
                         </button>
                     </div>
                     <div className="mobile-social">

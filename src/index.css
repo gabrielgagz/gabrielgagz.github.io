@@ -8,6 +8,12 @@
   --text-secondary: #cbd5e1; /* Slate 300 */
   --accent-primary: #3b82f6; /* Blue 500 */
   --accent-secondary: #8b5cf6; /* Violet 500 */
+  --navbar-bg: rgba(15, 23, 42, 0.8);
+  --divider-color: rgba(255, 255, 255, 0.15);
+  --divider-soft: rgba(255, 255, 255, 0.08);
+  --button-border: rgba(255, 255, 255, 0.25);
+  --hover-bg: rgba(255, 255, 255, 0.05);
+  --shadow-color: rgba(0, 0, 0, 0.2);
   
   /* Typography */
   --font-heading: 'Outfit', sans-serif;
@@ -27,6 +33,22 @@
   color-scheme: dark;
 }
 
+:root[data-theme='light'] {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --accent-primary: #2563eb;
+  --accent-secondary: #7c3aed;
+  --navbar-bg: rgba(248, 250, 252, 0.86);
+  --divider-color: rgba(15, 23, 42, 0.2);
+  --divider-soft: rgba(15, 23, 42, 0.12);
+  --button-border: rgba(15, 23, 42, 0.25);
+  --hover-bg: rgba(15, 23, 42, 0.06);
+  --shadow-color: rgba(15, 23, 42, 0.16);
+  color-scheme: light;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -41,6 +63,7 @@ body {
   font-family: var(--font-body);
   color: var(--text-primary);
   background-color: var(--bg-primary);
+  transition: background-color var(--transition-normal), color var(--transition-normal);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
