@@ -6,16 +6,16 @@ export const experiencesInfo = [
     role: "Team Leader / Software Developer / IT Support",
     company: "ATSA Bahía Blanca",
     duration: "2007 - Presente",
-    description: "Lidero iniciativas internas de software y operaciones IT, coordinando prioridades, tareas y dependencias entre áreas técnicas y de gestión. Facilito dinámicas ágiles de planificación y seguimiento para mejorar previsibilidad y cumplimiento. Impulsé mejoras de digitalización que redujeron errores manuales y sostuve la continuidad operativa del área durante más de 18 años.",
-    skills: ["Team Leadership", "Project Coordination", "Stakeholder Management", "Scrum/Kanban", "Delivery Tracking", "Risk & Issue Management"]
+    description: "Lidero iniciativas de software y operaciones IT con responsabilidad técnica y de gestión: planificación, priorización y coordinación entre áreas técnicas, operativas y directivas. Facilito dinámicas ágiles para mejorar previsibilidad, cumplimiento y capacidad de entrega. Impulsé procesos de digitalización que redujeron errores manuales y mejoraron la continuidad operativa.",
+    skills: ["Technical Leadership", "Project Coordination", "Stakeholder Management", "Scrum/Kanban", "Delivery Tracking", "Risk & Issue Management"]
   },
   {
     id: 2,
     role: "Scrum Facilitator / Professional Practice Tutor",
     company: "Teclab / Social Learning",
     duration: "2023 - Presente",
-    description: "Facilito ceremonias ágiles (daily, planning, review y retrospective), organizo sprints y acompaño equipos multidisciplinarios en entornos EdTech. Coordino objetivos con actores académicos y técnicos, gestiono bloqueos y priorización, y refuerzo la adopción de roles, artefactos y eventos Scrum con foco en entrega de valor y mejora continua.",
-    skills: ["Scrum Mastery", "Agile Facilitation", "Kanban", "Backlog Prioritization", "Mentoring", "Continuous Improvement"]
+    description: "Facilito ceremonias ágiles (daily, planning, review y retrospective), organizo sprints y acompaño equipos multidisciplinarios en entornos EdTech. Coordino objetivos con actores académicos y técnicos, gestiono bloqueos, riesgos y prioridades, y refuerzo la adopción de Scrum con foco en entrega de valor y mejora continua.",
+    skills: ["Scrum Mastery", "Agile Facilitation", "Kanban", "Backlog Prioritization", "Mentoring", "Continuous Improvement", "Risk Management"]
   },
   {
     id: 3,
@@ -38,11 +38,11 @@ export const experiencesInfo = [
 export const skillsInfo = [
   { 
     category: "Metodologías y Liderazgo", 
-    items: ["Scrum Master", "Kanban", "Agile Leadership", "Team Leadership", "Project Management", "Sprint Planning", "Retrospectives", "Coaching & Mentoring"] 
+    items: ["Scrum Master", "Kanban", "Agile Leadership", "Technical Team Leadership", "Project Management", "Sprint Planning", "Retrospectives", "Coaching & Mentoring"] 
   },
   { 
     category: "Gestión de Delivery", 
-    items: ["Stakeholder Management", "Roadmap & Prioritization", "Gestión de Riesgos", "Seguimiento de KPIs", "Resolución de Bloqueos", "Comunicación Técnica/Negocio", "Mejora Continua"] 
+    items: ["Stakeholder Management", "Roadmap & Prioritization", "Gestión de Riesgos", "Seguimiento de KPIs", "Resolución de Bloqueos", "Comunicación Técnica/Negocio", "Gestión de Dependencias", "Mejora Continua"] 
   },
   { 
     category: "Hard Skills (Soporte Técnico)", 

@@ -12,10 +12,10 @@ const About = () => {
                 <div className="about-content">
                     <div className="about-text-content">
                         <p className="about-text">
-                            Cuento con más de 18 años de trayectoria en IT liderando equipos, coordinando iniciativas tecnológicas y gestionando la entrega de proyectos en entornos de alta demanda operativa.
+                            Cuento con más de 18 años de trayectoria en IT, liderando equipos técnicos, coordinando iniciativas de software y sosteniendo operaciones críticas en entornos de alta demanda.
                         </p>
                         <p className="about-text">
-                            Mi foco actual está en roles de Team Leader, Project Manager y Scrum Master: facilitación de ceremonias ágiles, alineación con stakeholders, priorización de backlog, gestión de riesgos y mejora continua orientada a resultados.
+                            Mi foco actual está en roles de Technical Team Leader, Project Manager y Scrum Master: facilitación de ceremonias ágiles, priorización por impacto, alineación con stakeholders y mejora continua orientada a resultados de negocio.
                         </p>
                     </div>
 
@@ -23,19 +23,19 @@ const About = () => {
                         <div className="about-card">
                             <div className="card-icon"><Users size={32} /></div>
                             <h3>Liderazgo Ágil</h3>
-                            <p>Facilitación de Scrum/Kanban, coaching de equipos y gestión de impedimentos.</p>
+                            <p>Facilitación Scrum/Kanban, coaching de equipos y remoción de impedimentos.</p>
                         </div>
 
                         <div className="about-card">
                             <div className="card-icon"><Terminal size={32} /></div>
                             <h3>Base Técnica</h3>
-                            <p>Background en desarrollo y soporte IT para decidir con criterio técnico y de negocio.</p>
+                            <p>Experiencia en desarrollo y soporte IT para liderar decisiones técnicas con visión de producto.</p>
                         </div>
 
                         <div className="about-card">
                             <div className="card-icon"><Target size={32} /></div>
                             <h3>Gestión de Proyectos</h3>
-                            <p>Planificación, seguimiento de entregables, coordinación de stakeholders y foco en valor.</p>
+                            <p>Planificación, gestión de riesgos, seguimiento de entregables y foco en valor medible.</p>
                         </div>
                     </div>
                 </div>

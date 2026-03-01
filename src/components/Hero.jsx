@@ -9,13 +9,13 @@ const Hero = () => {
             <div className="hero-content">
                 <h2 className="hero-subtitle">Hola, soy</h2>
                 <h1 className="hero-title">Gabriel Gomez</h1>
-                <h3 className="hero-role gradient-text">Team Leader | Project Manager | Scrum Master</h3>
+                <h3 className="hero-role gradient-text">Technical Team Leader | Project Manager | Scrum Master</h3>
 
                 <p className="hero-description">
-                    Profesional IT con más de 18 años de experiencia liderando equipos técnicos,
-                    coordinando proyectos y facilitando marcos ágiles (Scrum/Kanban).
-                    Integro visión de negocio con criterio técnico para mejorar la entrega de valor,
-                    la previsibilidad y la comunicación entre áreas.
+                    Profesional IT con más de 18 años liderando equipos de desarrollo y operaciones,
+                    gestionando proyectos end-to-end y facilitando marcos ágiles (Scrum/Kanban).
+                    Combino liderazgo técnico con gestión ejecutiva para alinear stakeholders,
+                    mejorar predictibilidad y asegurar entrega de valor.
                 </p>
 
                 <div className="hero-cta">
