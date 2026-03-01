@@ -1,14 +1,28 @@
 import './Experience.css';
 import { Briefcase, Calendar } from 'lucide-react';
 
-import { experiencesInfo as experiences } from '../data/portfolioData';
+import { getPortfolioData } from '../data/portfolioData';
 
-const Experience = () => {
+const experienceText = {
+    en: {
+        title: 'Professional',
+        titleAccent: 'Experience',
+    },
+    es: {
+        title: 'Trayectoria',
+        titleAccent: 'Profesional',
+    },
+};
+
+const Experience = ({ language }) => {
+    const t = experienceText[language] ?? experienceText.en;
+    const { experiencesInfo: experiences } = getPortfolioData(language);
+
     return (
         <section id="experience" className="experience section-padding">
             <div className="container">
                 <h2 className="section-title">
-                    Trayectoria <span className="gradient-text">Profesional</span>
+                    {t.title} <span className="gradient-text">{t.titleAccent}</span>
                 </h2>
 
                 <div className="timeline">

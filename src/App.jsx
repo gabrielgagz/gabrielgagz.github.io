@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -9,16 +10,18 @@ import WhatsAppButton from './components/WhatsAppButton'
 import './App.css'
 
 function App() {
+  const [language, setLanguage] = useState('en')
+
   return (
     <div className="app">
-      <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Skills />
-      <Education />
-      <Footer />
-      <WhatsAppButton />
+      <Navbar language={language} onLanguageChange={setLanguage} />
+      <Hero language={language} />
+      <About language={language} />
+      <Experience language={language} />
+      <Skills language={language} />
+      <Education language={language} />
+      <Footer language={language} />
+      <WhatsAppButton language={language} />
     </div>
   )
 }

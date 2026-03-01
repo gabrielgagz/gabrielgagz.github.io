@@ -1,11 +1,24 @@
 import './WhatsAppButton.css';
 import { MessageCircle } from 'lucide-react';
 
-const WhatsAppButton = () => {
+const whatsappText = {
+    en: {
+        message: 'Hi Gabriel! I saw your portfolio...',
+        aria: 'Contact via WhatsApp',
+        tooltip: 'Message me!',
+    },
+    es: {
+        message: 'Hola Gabriel! Vi tu portfolio...',
+        aria: 'Contactar por WhatsApp',
+        tooltip: '¡Escríbeme!',
+    },
+};
+
+const WhatsAppButton = ({ language }) => {
     // Numero provisto por el usuario
     const phoneNumber = "2914723804";
-    // Si necesitas pre-escribir un mensaje, podes agregarlo en &text=Hola
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=Hola%20Gabriel!%20Vi%20tu%20portfolio...`;
+    const t = whatsappText[language] ?? whatsappText.en;
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(t.message)}`;
 
     return (
         <a
@@ -13,12 +26,12 @@ const WhatsAppButton = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="whatsapp-btn"
-            aria-label="Contactar por WhatsApp"
+            aria-label={t.aria}
         >
             <div className="whatsapp-icon-wrapper">
                 <MessageCircle size={28} />
             </div>
-            <span className="whatsapp-tooltip">¡Escríbeme!</span>
+            <span className="whatsapp-tooltip">{t.tooltip}</span>
         </a>
     );
 };

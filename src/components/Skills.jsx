@@ -1,14 +1,28 @@
 import './Skills.css';
 import { Code2, Database, Layout, Server, Settings, CheckCircle } from 'lucide-react';
 
-import { skillsInfo as skillsData } from '../data/portfolioData';
+import { getPortfolioData } from '../data/portfolioData';
 
-const Skills = () => {
+const skillsText = {
+    en: {
+        title: 'Core',
+        titleAccent: 'Skills',
+    },
+    es: {
+        title: 'Mis',
+        titleAccent: 'Habilidades',
+    },
+};
+
+const Skills = ({ language }) => {
+    const t = skillsText[language] ?? skillsText.en;
+    const { skillsInfo: skillsData } = getPortfolioData(language);
+
     return (
         <section id="skills" className="skills section-padding">
             <div className="container">
                 <h2 className="section-title">
-                    Mis <span className="gradient-text">Habilidades</span>
+                    {t.title} <span className="gradient-text">{t.titleAccent}</span>
                 </h2>
 
                 <div className="skills-grid">
