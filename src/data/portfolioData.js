@@ -51,7 +51,7 @@ export const portfolioDataByLanguage = {
       },
       {
         category: 'Technical Skills',
-        items: ['React', 'Node.js', 'Express', 'PHP', 'MySQL / MongoDB', 'Linux', 'Troubleshooting', 'Cloud Fundamentals (AWS)'],
+        items: ['React', 'Node.js', 'Express', 'PHP', 'MySQL / MongoDB', 'Linux', 'Troubleshooting', 'Cloud Fundamentals (AWS)', 'English C1 (Advanced)'],
       },
       {
         category: 'Tools',
@@ -109,7 +109,7 @@ export const portfolioDataByLanguage = {
       },
       {
         category: 'Hard Skills (Soporte Técnico)',
-        items: ['React', 'Node.js', 'Express', 'PHP', 'MySQL / MongoDB', 'Linux', 'Troubleshooting', 'Cloud Fundamentals (AWS)'],
+        items: ['React', 'Node.js', 'Express', 'PHP', 'MySQL / MongoDB', 'Linux', 'Troubleshooting', 'Cloud Fundamentals (AWS)', 'English C1 (Advanced)'],
       },
       {
         category: 'Herramientas IT',

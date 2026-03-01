@@ -40,6 +40,7 @@
     border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 0.05);
     transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+    text-align: center;
 }
 
 .about-card:hover {
@@ -50,7 +51,7 @@
 
 .card-icon {
     color: var(--accent-primary);
-    margin-bottom: 1.25rem;
+    margin: 0 auto 1.25rem;
     width: 60px;
     height: 60px;
     background: rgba(59, 130, 246, 0.1);
