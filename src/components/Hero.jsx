@@ -26,7 +26,7 @@ const Hero = ({ language }) => {
             <div className="hero-content">
                 <h2 className="hero-subtitle">{t.subtitle}</h2>
                 <h1 className="hero-title">Gabriel Gomez</h1>
-                <h3 className="hero-role gradient-text">Technical Team Leader | Project Manager | Scrum Master</h3>
+                <h3 className="hero-role gradient-text">Technical Team Lead | Delivery Manager | Scrum Master</h3>
 
                 <p className="hero-description">
                     {t.description}

@@ -5,12 +5,12 @@ export const portfolioDataByLanguage = {
     experiencesInfo: [
       {
         id: 1,
-        role: 'Team Leader / Software Developer / IT Support',
+        role: 'Technical Team Lead / Delivery Manager / IT Support',
         company: 'ATSA Bahia Blanca',
         duration: '2007 - Present',
         description:
           'I lead software and IT operations initiatives with both technical and management accountability: planning, prioritization, and coordination across technical, operational, and leadership areas. I facilitate agile workflows to improve predictability, delivery consistency, and team throughput. I also drove digitalization processes that reduced manual errors and improved operational continuity.',
-        skills: ['Technical Leadership', 'Project Coordination', 'Stakeholder Management', 'Scrum/Kanban', 'Delivery Tracking', 'Risk & Issue Management'],
+        skills: ['Technical Team Lead', 'Delivery Manager', 'Stakeholder Management', 'Scrum Master', 'Delivery Tracking', 'Risk Management'],
       },
       {
         id: 2,
@@ -43,11 +43,11 @@ export const portfolioDataByLanguage = {
     skillsInfo: [
       {
         category: 'Methodologies & Leadership',
-        items: ['Scrum Master', 'Kanban', 'Agile Leadership', 'Technical Team Leadership', 'Project Management', 'Sprint Planning', 'Retrospectives', 'Coaching & Mentoring'],
+        items: ['Technical Team Lead', 'Delivery Manager', 'Scrum Master', 'Kanban', 'Agile Leadership', 'Project Management', 'Sprint Planning', 'Retrospectives', 'Coaching & Mentoring'],
       },
       {
         category: 'Delivery Management',
-        items: ['Stakeholder Management', 'Roadmap & Prioritization', 'Risk Management', 'KPI Tracking', 'Blocker Resolution', 'Technical/Business Communication', 'Dependency Management', 'Continuous Improvement'],
+        items: ['Stakeholder Management', 'Risk Management', 'Roadmap & Prioritization', 'KPI Tracking', 'Blocker Resolution', 'Technical/Business Communication', 'Dependency Management', 'Continuous Improvement'],
       },
       {
         category: 'Technical Skills',
@@ -63,12 +63,12 @@ export const portfolioDataByLanguage = {
     experiencesInfo: [
       {
         id: 1,
-        role: 'Team Leader / Software Developer / IT Support',
+        role: 'Technical Team Lead / Delivery Manager / IT Support',
         company: 'ATSA Bahía Blanca',
         duration: '2007 - Presente',
         description:
           'Lidero iniciativas de software y operaciones IT con responsabilidad técnica y de gestión: planificación, priorización y coordinación entre áreas técnicas, operativas y directivas. Facilito dinámicas ágiles para mejorar previsibilidad, cumplimiento y capacidad de entrega. Impulsé procesos de digitalización que redujeron errores manuales y mejoraron la continuidad operativa.',
-        skills: ['Liderazgo Técnico', 'Coordinación de Proyectos', 'Gestión de Stakeholders', 'Scrum/Kanban', 'Seguimiento de Delivery', 'Gestión de Riesgos e Incidencias'],
+        skills: ['Technical Team Lead', 'Delivery Manager', 'Stakeholder Management', 'Scrum Master', 'Seguimiento de Delivery', 'Risk Management'],
       },
       {
         id: 2,
@@ -101,11 +101,11 @@ export const portfolioDataByLanguage = {
     skillsInfo: [
       {
         category: 'Metodologías y Liderazgo',
-        items: ['Scrum Master', 'Kanban', 'Agile Leadership', 'Liderazgo Técnico de Equipos', 'Project Management', 'Sprint Planning', 'Retrospectives', 'Coaching y Mentoring'],
+        items: ['Technical Team Lead', 'Delivery Manager', 'Scrum Master', 'Kanban', 'Agile Leadership', 'Project Management', 'Sprint Planning', 'Retrospectives', 'Coaching y Mentoring'],
       },
       {
         category: 'Gestión de Delivery',
-        items: ['Stakeholder Management', 'Roadmap y Priorización', 'Gestión de Riesgos', 'Seguimiento de KPIs', 'Resolución de Bloqueos', 'Comunicación Técnica/Negocio', 'Gestión de Dependencias', 'Mejora Continua'],
+        items: ['Stakeholder Management', 'Risk Management', 'Roadmap y Priorización', 'Seguimiento de KPIs', 'Resolución de Bloqueos', 'Comunicación Técnica/Negocio', 'Gestión de Dependencias', 'Mejora Continua'],
       },
       {
         category: 'Hard Skills (Soporte Técnico)',
