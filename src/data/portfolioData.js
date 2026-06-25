@@ -50,12 +50,20 @@ export const portfolioDataByLanguage = {
         items: ['Stakeholder Management', 'Risk Management', 'Roadmap & Prioritization', 'KPI Tracking', 'Blocker Resolution', 'Technical/Business Communication', 'Dependency Management', 'Continuous Improvement'],
       },
       {
-        category: 'Technical Skills',
-        items: ['React', 'Node.js', 'Express', 'PHP', 'MySQL / MongoDB', 'Linux', 'Troubleshooting', 'Cloud Fundamentals (AWS)', 'English C1 (Advanced)'],
+        category: 'Frontend Development',
+        items: ['React 18/19', 'Vite', 'React Router DOM', 'TailwindCSS', 'Framer Motion', 'Vanilla CSS', 'Responsive Design', 'Lazy Loading', 'React Portals', 'lucide-react', 'jsPDF'],
       },
       {
-        category: 'Tools',
-        items: ['Jira', 'Trello', 'Git / GitHub', 'GitLab / Bitbucket', 'Confluence', 'Linux / Windows Server'],
+        category: 'Backend Development',
+        items: ['PHP 8+', 'MVC Architecture (custom)', 'PSR-4 Autoloading', 'REST API Design', 'MySQL / MariaDB', 'SQLite', 'PDO', 'Server-Sent Events (SSE)', 'Webhook Integration'],
+      },
+      {
+        category: 'Integrations & Security',
+        items: ['Telegram Bot API', 'Google reCAPTCHA v3', 'JWT Authentication', 'Role-Based Access Control', 'Axios / Fetch API', 'CORS & .htaccess config'],
+      },
+      {
+        category: 'DevOps & Tools',
+        items: ['Git / GitHub', 'Bash deploy scripts', 'FTPS deployment (Ferozo)', 'Linux Server admin', 'ESLint', 'PostCSS', 'Vite build pipeline', 'XAMPP / PHP-CLI', 'Windows Server'],
       },
     ],
   },
@@ -101,19 +109,27 @@ export const portfolioDataByLanguage = {
     skillsInfo: [
       {
         category: 'Metodologías y Liderazgo',
-        items: ['Technical Team Lead', 'Delivery Manager', 'Scrum Master', 'Kanban', 'Agile Leadership', 'Project Management', 'Sprint Planning', 'Retrospectives', 'Coaching y Mentoring'],
+        items: ['Technical Team Lead', 'Delivery Manager', 'Scrum Master', 'Kanban', 'Agile Leadership', 'Gestión de Proyectos', 'Sprint Planning', 'Retrospectivas', 'Coaching y Mentoring'],
       },
       {
         category: 'Gestión de Delivery',
-        items: ['Stakeholder Management', 'Risk Management', 'Roadmap y Priorización', 'Seguimiento de KPIs', 'Resolución de Bloqueos', 'Comunicación Técnica/Negocio', 'Gestión de Dependencias', 'Mejora Continua'],
+        items: ['Stakeholder Management', 'Gestión de Riesgos', 'Roadmap y Priorización', 'Seguimiento de KPIs', 'Resolución de Bloqueos', 'Comunicación Técnica/Negocio', 'Gestión de Dependencias', 'Mejora Continua'],
       },
       {
-        category: 'Hard Skills (Soporte Técnico)',
-        items: ['React', 'Node.js', 'Express', 'PHP', 'MySQL / MongoDB', 'Linux', 'Troubleshooting', 'Cloud Fundamentals (AWS)', 'English C1 (Advanced)'],
+        category: 'Desarrollo Frontend',
+        items: ['React 18/19', 'Vite', 'React Router DOM', 'TailwindCSS', 'Framer Motion', 'CSS Vanilla', 'Diseño Responsive', 'Lazy Loading', 'React Portals', 'lucide-react', 'jsPDF'],
       },
       {
-        category: 'Herramientas IT',
-        items: ['Jira', 'Trello', 'Git / GitHub', 'GitLab / Bitbucket', 'Confluence', 'Linux / Windows Server'],
+        category: 'Desarrollo Backend',
+        items: ['PHP 8+', 'Arquitectura MVC (custom)', 'Autoloading PSR-4', 'Diseño de REST APIs', 'MySQL / MariaDB', 'SQLite', 'PDO', 'Server-Sent Events (SSE)', 'Integración de Webhooks'],
+      },
+      {
+        category: 'Integraciones y Seguridad',
+        items: ['Telegram Bot API', 'Google reCAPTCHA v3', 'Autenticación JWT', 'Control de Acceso por Roles', 'Axios / Fetch API', 'Configuración CORS y .htaccess'],
+      },
+      {
+        category: 'DevOps y Herramientas',
+        items: ['Git / GitHub', 'Scripts de deploy en Bash', 'Deploy FTPS (Ferozo)', 'Administración de Linux Server', 'ESLint', 'PostCSS', 'Pipeline Vite', 'XAMPP / PHP-CLI', 'Windows Server'],
       },
     ],
   },
