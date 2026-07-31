@@ -69,7 +69,7 @@ export const portfolioDataByLanguage = {
     projectsInfo: [
       {
         id: 1,
-        title: 'Sistema Hugo',
+        title: 'Hugo Management System',
         role: 'Team Leader & Lead Architect',
         description: 'Integral management platform. I led the development team and architected the solution, ensuring continuous value delivery, robust data handling, and process digitization for critical operational workflows.',
         tech: ['React', 'PHP 8', 'MySQL', 'TailwindCSS'],
@@ -85,7 +85,7 @@ export const portfolioDataByLanguage = {
       },
       {
         id: 3,
-        title: 'Gestor de Mensajería',
+        title: 'Messaging Dashboard',
         role: 'Lead Integrator & Project Manager',
         description: 'A dedicated messaging dashboard seamlessly integrated with a custom Telegram Bot. I coordinated the architecture bridging the backend, frontend UI, and external bot API.',
         tech: ['React', 'Telegram API', 'PHP', 'Vite'],
