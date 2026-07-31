@@ -9,7 +9,7 @@ const heroText = {
         description: 'IT professional with more than 18 years leading development and operations teams, managing end-to-end projects and facilitating agile frameworks (Scrum/Kanban). I combine technical leadership with executive management to align stakeholders, improve predictability, and ensure value delivery.',
         primaryCta: 'See my work',
         secondaryCta: 'Contact',
-        downloadCv: 'Download CV',
+        downloadCv: 'Download Resume',
     },
     es: {
         subtitle: 'Hola, soy',
