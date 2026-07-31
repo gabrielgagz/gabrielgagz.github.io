@@ -45,9 +45,17 @@ const Projects = ({ language }) => {
                                     <Rocket size={16} />
                                     <span>{project.role}</span>
                                 </div>
-                                <p className="project-description">
-                                    {project.description}
-                                </p>
+                                <div className="project-description">
+                                    {project.description.split('\n').map((line, idx) => {
+                                        const colonIdx = line.indexOf(':');
+                                        if (colonIdx > -1) {
+                                            const label = line.slice(0, colonIdx + 1);
+                                            const text = line.slice(colonIdx + 1);
+                                            return <p key={idx}><strong>{label}</strong>{text}</p>;
+                                        }
+                                        return <p key={idx}>{line}</p>;
+                                    })}
+                                </div>
                                 <div className="project-tech">
                                     {project.tech.map(t => (
                                         <span key={t} className="tech-tag">{t}</span>

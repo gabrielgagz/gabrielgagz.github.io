@@ -12,7 +12,7 @@ const footerText = {
         connect: 'Connect',
         rights: 'All rights reserved.',
         madeWith: 'Built with',
-        ending: 'for technology.',
+        ending: 'passion for technology.',
     },
     es: {
         slogan: 'Ayudando a los equipos a entregar mejor software con claridad, cadencia y ownership.',
@@ -24,7 +24,7 @@ const footerText = {
         connect: 'Conéctate',
         rights: 'Todos los derechos reservados.',
         madeWith: 'Desarrollado con',
-        ending: 'hacia la tecnología',
+        ending: 'pasión por la tecnología.',
     },
 };
 

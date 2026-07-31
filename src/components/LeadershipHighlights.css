@@ -1,0 +1,60 @@
+.leadership-highlights {
+    background-color: var(--background-color);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.highlight-card {
+    background-color: var(--card-background);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.highlight-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px -10px rgba(59, 130, 246, 0.15);
+    border-color: rgba(59, 130, 246, 0.3);
+}
+
+.highlight-icon {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(59, 130, 246, 0.1);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.highlight-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    letter-spacing: -0.5px;
+}
+
+.highlight-subtitle {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .highlights-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

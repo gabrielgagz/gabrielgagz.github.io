@@ -5,12 +5,12 @@ export const portfolioDataByLanguage = {
     experiencesInfo: [
       {
         id: 1,
-        role: 'Technical Team Lead / Delivery Manager / IT Support',
+        role: 'Technical Team Lead / Delivery Manager',
         company: 'ATSA Bahia Blanca',
         duration: '2007 - Present',
         description:
-          'I lead software and IT operations initiatives with both technical and management accountability: planning, prioritization, and coordination across technical, operational, and leadership areas. I facilitate agile workflows to improve predictability, delivery consistency, and team throughput. I also drove digitalization processes that reduced manual errors and improved operational continuity.',
-        skills: ['Technical Team Lead', 'Delivery Manager', 'Stakeholder Management', 'Scrum Master', 'Delivery Tracking', 'Risk Management'],
+          'I lead a technical team of [X] professionals, driving the digital transformation of internal operations. I replaced legacy manual processes with custom software solutions, reducing operational errors by [X]%. I hold direct responsibility for technical architecture, project roadmaps, and managing IT infrastructure supporting [X] active users.',
+        skills: ['Technical Leadership', 'Digital Transformation', 'Team Coordination', 'System Architecture', 'Delivery Management'],
       },
       {
         id: 2,
@@ -18,8 +18,8 @@ export const portfolioDataByLanguage = {
         company: 'Teclab / Social Learning',
         duration: '2023 - Present',
         description:
-          'I facilitate agile ceremonies (daily, planning, review, and retrospective), organize sprint work, and support multidisciplinary teams in EdTech environments. I coordinate goals with academic and technical stakeholders, manage blockers, risks, and priorities, and reinforce Scrum adoption with a value-delivery and continuous-improvement mindset.',
-        skills: ['Scrum Mastery', 'Agile Facilitation', 'Kanban', 'Backlog Prioritization', 'Mentoring', 'Continuous Improvement', 'Risk Management'],
+          'I facilitate agile ceremonies and coordinate sprint execution for multidisciplinary teams in an EdTech environment. I align technical delivery with academic goals, actively removing blockers and mitigating risks for [X] simultaneous projects.',
+        skills: ['Scrum Mastery', 'Agile Facilitation', 'Risk Management', 'Blocker Resolution', 'Mentoring'],
       },
       {
         id: 3,
@@ -27,8 +27,8 @@ export const portfolioDataByLanguage = {
         company: 'Alkemy',
         duration: '2023',
         description:
-          'I participated in collaborative projects with real-world dynamics, applying agile planning, delivery tracking, and team coordination practices for software products.',
-        skills: ['Project Management', 'Sprint Planning', 'Team Collaboration', 'Software Lifecycle'],
+          'Coordinated agile software development projects with real-world dynamics. Managed sprint planning, delivery tracking, and team alignment to ensure software products met strict deadlines and quality standards.',
+        skills: ['Project Management', 'Sprint Planning', 'Team Alignment', 'Software Lifecycle'],
       },
       {
         id: 4,
@@ -36,42 +36,30 @@ export const portfolioDataByLanguage = {
         company: 'Freelance',
         duration: '2010 - Present',
         description:
-          'I build custom web solutions and implement process improvements for different clients, combining full-stack development with technical support and functional analysis.',
-        skills: ['React', 'Node.js', 'PHP', 'MySQL', 'MongoDB', 'Technical Consulting'],
+          'Developed custom web solutions and automated internal processes for [X] B2B clients. Combined full-stack engineering with technical consulting to optimize client workflows and reduce manual overhead.',
+        skills: ['Full-Stack Engineering', 'Technical Consulting', 'Process Automation', 'System Integration'],
       },
     ],
     skillsInfo: [
       {
-        category: 'Methodologies & Leadership',
-        items: ['Technical Team Lead', 'Delivery Manager', 'Scrum Master', 'Kanban', 'Agile Leadership', 'Project Management', 'Sprint Planning', 'Retrospectives', 'Coaching & Mentoring'],
+        category: 'Leadership & Management',
+        items: ['Technical Team Leadership', 'Delivery Management', 'Scrum & Agile', 'Project Management', 'Roadmap Planning', 'Stakeholder Alignment', 'Blocker Resolution'],
       },
       {
-        category: 'Delivery Management',
-        items: ['Stakeholder Management', 'Risk Management', 'Roadmap & Prioritization', 'KPI Tracking', 'Blocker Resolution', 'Technical/Business Communication', 'Dependency Management', 'Continuous Improvement'],
+        category: 'Software Engineering',
+        items: ['System Architecture', 'API Design', 'Relational Databases', 'Full-Stack Development', 'Code Review', 'Digital Transformation'],
       },
       {
-        category: 'Frontend Development',
-        items: ['React 18/19', 'Vite', 'React Router DOM', 'TailwindCSS', 'Framer Motion', 'Vanilla CSS', 'Responsive Design', 'Lazy Loading', 'React Portals', 'lucide-react', 'jsPDF'],
-      },
-      {
-        category: 'Backend Development',
-        items: ['PHP 8+', 'MVC Architecture (custom)', 'PSR-4 Autoloading', 'REST API Design', 'MySQL / MariaDB', 'SQLite', 'PDO', 'Server-Sent Events (SSE)', 'Webhook Integration'],
-      },
-      {
-        category: 'Integrations & Security',
-        items: ['Telegram Bot API', 'Google reCAPTCHA v3', 'JWT Authentication', 'Role-Based Access Control', 'Axios / Fetch API', 'CORS & .htaccess config'],
-      },
-      {
-        category: 'DevOps & Tools',
-        items: ['Git / GitHub', 'Bash deploy scripts', 'FTPS deployment (Ferozo)', 'Linux Server admin', 'ESLint', 'PostCSS', 'Vite build pipeline', 'XAMPP / PHP-CLI', 'Windows Server'],
-      },
+        category: 'Core Technologies',
+        items: ['React', 'PHP 8+', 'Node.js', 'MySQL / SQL', 'TailwindCSS', 'WebSockets', 'Git / GitHub', 'Linux Server Admin'],
+      }
     ],
     projectsInfo: [
       {
         id: 1,
         title: 'Hugo Management System',
         role: 'Team Leader & Lead Architect',
-        description: 'Payroll application developed in accordance with the latest labor modernization laws. I led the development team and architected the solution, ensuring compliance, continuous value delivery, and robust data handling.',
+        description: 'Problem: Needed a payroll system compliant with the latest labor modernization laws.\nUsers: [X] employees processed monthly.\nRole: Led the engineering team and defined the core architecture.\nResult: Delivered a fully compliant, digitized operational workflow that eliminated manual calculation errors.',
         tech: ['React', 'PHP 8', 'MySQL', 'TailwindCSS'],
         image: 'hugo.png',
       },
@@ -79,7 +67,7 @@ export const portfolioDataByLanguage = {
         id: 2,
         title: 'ChatLack',
         role: 'Product Owner & Tech Lead',
-        description: 'An innovative, low-resource alternative to Slack designed for teams with constrained technical budgets. Guided product vision and technical leadership to solve real-time communication needs.',
+        description: 'Problem: Organizations with constrained budgets needed a real-time communication alternative to expensive tools like Slack.\nUsers: [X] active daily users.\nRole: Guided product vision and provided technical leadership.\nResult: Built a highly-adopted, low-resource chat platform using WebSockets for real-time delivery.',
         tech: ['Node.js', 'WebSockets', 'React', 'MySQL / Relational DB'],
         image: 'chatlack.png',
       },
@@ -87,7 +75,7 @@ export const portfolioDataByLanguage = {
         id: 3,
         title: 'Messaging Dashboard',
         role: 'Lead Integrator & Project Manager',
-        description: 'A dedicated messaging dashboard seamlessly integrated with a custom Telegram Bot. I coordinated the architecture bridging the backend, frontend UI, and external bot API.',
+        description: 'Problem: Needed a centralized dashboard to handle incoming support tickets via Telegram.\nUsers: Support team of [X] agents.\nRole: Managed project execution and designed the API integration layer.\nResult: Reduced ticket response times by [X]% by bridging the backend, frontend UI, and external Telegram API.',
         tech: ['React', 'Telegram API', 'PHP', 'Vite'],
         image: 'gestor.png',
       },
@@ -97,12 +85,12 @@ export const portfolioDataByLanguage = {
     experiencesInfo: [
       {
         id: 1,
-        role: 'Technical Team Lead / Delivery Manager / IT Support',
+        role: 'Technical Team Lead / Delivery Manager',
         company: 'ATSA Bahía Blanca',
         duration: '2007 - Presente',
         description:
-          'Lidero iniciativas de software y operaciones IT con responsabilidad técnica y de gestión: planificación, priorización y coordinación entre áreas técnicas, operativas y directivas. Facilito dinámicas ágiles para mejorar previsibilidad, cumplimiento y capacidad de entrega. Impulsé procesos de digitalización que redujeron errores manuales y mejoraron la continuidad operativa.',
-        skills: ['Technical Team Lead', 'Delivery Manager', 'Stakeholder Management', 'Scrum Master', 'Seguimiento de Delivery', 'Risk Management'],
+          'Lidero un equipo técnico de [X] profesionales, impulsando la transformación digital de las operaciones internas. Reemplacé procesos manuales con software a medida, reduciendo errores operativos en un [X]%. Soy responsable directo de la arquitectura técnica, el roadmap de proyectos y la infraestructura IT para [X] usuarios activos.',
+        skills: ['Liderazgo Técnico', 'Transformación Digital', 'Coordinación de Equipos', 'Arquitectura de Sistemas', 'Delivery Management'],
       },
       {
         id: 2,
@@ -110,8 +98,8 @@ export const portfolioDataByLanguage = {
         company: 'Teclab / Social Learning',
         duration: '2023 - Presente',
         description:
-          'Facilito ceremonias ágiles (daily, planning, review y retrospective), organizo sprints y acompaño equipos multidisciplinarios en entornos EdTech. Coordino objetivos con actores académicos y técnicos, gestiono bloqueos, riesgos y prioridades, y refuerzo la adopción de Scrum con foco en entrega de valor y mejora continua.',
-        skills: ['Scrum Mastery', 'Facilitación Ágil', 'Kanban', 'Priorización de Backlog', 'Mentoría', 'Mejora Continua', 'Gestión de Riesgos'],
+          'Facilito ceremonias ágiles y coordino la ejecución de sprints para equipos multidisciplinarios en el sector EdTech. Alineo las entregas técnicas con los objetivos académicos, removiendo bloqueos y mitigando riesgos para [X] proyectos simultáneos.',
+        skills: ['Scrum Mastery', 'Facilitación Ágil', 'Gestión de Riesgos', 'Resolución de Bloqueos', 'Mentoría'],
       },
       {
         id: 3,
@@ -119,8 +107,8 @@ export const portfolioDataByLanguage = {
         company: 'Alkemy',
         duration: '2023',
         description:
-          'Participé en proyectos colaborativos con dinámicas de entorno real, aplicando prácticas ágiles de planificación, seguimiento y coordinación de entregables para productos de software.',
-        skills: ['Gestión de Proyectos', 'Sprint Planning', 'Colaboración en Equipo', 'Ciclo de Vida de Software'],
+          'Coordiné proyectos de desarrollo de software con dinámicas del mundo real. Gestioné la planificación de sprints, el seguimiento de entregas y la alineación del equipo para asegurar que los productos cumplieran con plazos y estándares de calidad estrictos.',
+        skills: ['Gestión de Proyectos', 'Sprint Planning', 'Alineación de Equipos', 'Ciclo de Vida de Software'],
       },
       {
         id: 4,
@@ -128,42 +116,30 @@ export const portfolioDataByLanguage = {
         company: 'Freelance',
         duration: '2010 - Presente',
         description:
-          'Desarrollo soluciones web a medida e implemento mejoras en procesos internos para distintos clientes, integrando desarrollo full-stack con soporte técnico y análisis funcional.',
-        skills: ['React', 'Node.js', 'PHP', 'MySQL', 'MongoDB', 'Consultoría Técnica'],
+          'Desarrollé soluciones web personalizadas y automaticé procesos internos para [X] clientes B2B. Combiné ingeniería full-stack con consultoría técnica para optimizar flujos de trabajo y reducir la carga operativa manual.',
+        skills: ['Ingeniería Full-Stack', 'Consultoría Técnica', 'Automatización de Procesos', 'Integración de Sistemas'],
       },
     ],
     skillsInfo: [
       {
-        category: 'Metodologías y Liderazgo',
-        items: ['Technical Team Lead', 'Delivery Manager', 'Scrum Master', 'Kanban', 'Agile Leadership', 'Gestión de Proyectos', 'Sprint Planning', 'Retrospectivas', 'Coaching y Mentoring'],
+        category: 'Liderazgo y Gestión',
+        items: ['Liderazgo Técnico', 'Delivery Management', 'Scrum y Agile', 'Gestión de Proyectos', 'Planificación de Roadmaps', 'Alineación de Stakeholders', 'Resolución de Bloqueos'],
       },
       {
-        category: 'Gestión de Delivery',
-        items: ['Stakeholder Management', 'Gestión de Riesgos', 'Roadmap y Priorización', 'Seguimiento de KPIs', 'Resolución de Bloqueos', 'Comunicación Técnica/Negocio', 'Gestión de Dependencias', 'Mejora Continua'],
+        category: 'Ingeniería de Software',
+        items: ['Arquitectura de Sistemas', 'Diseño de APIs', 'Bases de Datos Relacionales', 'Desarrollo Full-Stack', 'Code Review', 'Transformación Digital'],
       },
       {
-        category: 'Desarrollo Frontend',
-        items: ['React 18/19', 'Vite', 'React Router DOM', 'TailwindCSS', 'Framer Motion', 'CSS Vanilla', 'Diseño Responsive', 'Lazy Loading', 'React Portals', 'lucide-react', 'jsPDF'],
-      },
-      {
-        category: 'Desarrollo Backend',
-        items: ['PHP 8+', 'Arquitectura MVC (custom)', 'Autoloading PSR-4', 'Diseño de REST APIs', 'MySQL / MariaDB', 'SQLite', 'PDO', 'Server-Sent Events (SSE)', 'Integración de Webhooks'],
-      },
-      {
-        category: 'Integraciones y Seguridad',
-        items: ['Telegram Bot API', 'Google reCAPTCHA v3', 'Autenticación JWT', 'Control de Acceso por Roles', 'Axios / Fetch API', 'Configuración CORS y .htaccess'],
-      },
-      {
-        category: 'DevOps y Herramientas',
-        items: ['Git / GitHub', 'Scripts de deploy en Bash', 'Deploy FTPS (Ferozo)', 'Administración de Linux Server', 'ESLint', 'PostCSS', 'Pipeline Vite', 'XAMPP / PHP-CLI', 'Windows Server'],
-      },
+        category: 'Tecnologías Principales',
+        items: ['React', 'PHP 8+', 'Node.js', 'MySQL / SQL', 'TailwindCSS', 'WebSockets', 'Git / GitHub', 'Administración Linux Server'],
+      }
     ],
     projectsInfo: [
       {
         id: 1,
         title: 'Sistema Hugo',
         role: 'Team Leader & Lead Architect',
-        description: 'Aplicación de sueldos desarrollada de acuerdo a la Ley de Modernización Laboral. Lideré al equipo de desarrollo y diseñé la arquitectura de la solución, asegurando cumplimiento legal, entrega continua de valor y procesamiento robusto de datos.',
+        description: 'Problema: Se requería un sistema de sueldos adaptado a la Ley de Modernización Laboral.\nUsuarios: [X] empleados liquidados mensualmente.\nRol: Lideré el equipo de ingeniería y definí la arquitectura core.\nResultado: Se entregó un flujo operativo 100% digitalizado y en regla que eliminó los errores de cálculo manual.',
         tech: ['React', 'PHP 8', 'MySQL', 'TailwindCSS'],
         image: 'hugo.png',
       },
@@ -171,7 +147,7 @@ export const portfolioDataByLanguage = {
         id: 2,
         title: 'ChatLack',
         role: 'Product Owner & Tech Lead',
-        description: 'Alternativa innovadora a Slack para equipos con bajos recursos técnicos/presupuestarios. Guié la visión del producto y el liderazgo técnico para resolver necesidades de comunicación en tiempo real.',
+        description: 'Problema: Organizaciones con bajo presupuesto necesitaban una alternativa de chat en tiempo real frente a herramientas costosas como Slack.\nUsuarios: [X] usuarios activos diarios.\nRol: Guié la visión del producto y el liderazgo técnico.\nResultado: Plataforma de alta adopción y bajos recursos utilizando WebSockets para mensajería en tiempo real.',
         tech: ['Node.js', 'WebSockets', 'React', 'MySQL / BD Relacional'],
         image: 'chatlack.png',
       },
@@ -179,7 +155,7 @@ export const portfolioDataByLanguage = {
         id: 3,
         title: 'Gestor de Mensajería',
         role: 'Lead Integrator & Project Manager',
-        description: 'Dashboard de mensajería integrado con un Bot de Telegram personalizado. Coordiné la arquitectura y el flujo de datos entre el backend, la interfaz frontend y la API externa de Telegram.',
+        description: 'Problema: Necesidad de un dashboard centralizado para gestionar tickets de soporte entrantes vía Telegram.\nUsuarios: Equipo de soporte de [X] agentes.\nRol: Gestioné la ejecución del proyecto y diseñé la capa de integración de APIs.\nResultado: Reducción del [X]% en tiempos de respuesta uniendo backend, frontend UI y la API de Telegram.',
         tech: ['React', 'Telegram API', 'PHP', 'Vite'],
         image: 'gestor.png',
       },
