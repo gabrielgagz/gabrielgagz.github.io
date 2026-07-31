@@ -1,5 +1,5 @@
 import './About.css';
-import { Terminal, Users, Target } from 'lucide-react';
+import { Terminal, Users, Target, Languages } from 'lucide-react';
 
 const aboutText = {
     en: {
@@ -13,6 +13,9 @@ const aboutText = {
         card2Body: 'I combine hands-on software development and senior IT support experience to guide architecture and implementation decisions. This technical depth helps me bridge engineering details with product and business priorities.',
         card3Title: 'Project Management',
         card3Body: 'I manage project planning, risk control, priority setting, and stakeholder communication with clear execution follow-up. My focus is measurable outcomes, on-time delivery, and sustained process quality.',
+        languagesLabel: 'Languages',
+        langNative: 'Spanish (Native)',
+        langAdvanced: 'English (Advanced C1)'
     },
     es: {
         title: 'Sobre',
@@ -25,6 +28,9 @@ const aboutText = {
         card2Body: 'Combino experiencia práctica en desarrollo de software y soporte IT senior para guiar decisiones de arquitectura e implementación. Esa base técnica me permite traducir necesidades de producto y negocio a soluciones viables.',
         card3Title: 'Gestión de Proyectos',
         card3Body: 'Gestiono planificación, riesgos, prioridades y comunicación con stakeholders mediante seguimiento claro de ejecución. Mi foco está en resultados medibles, cumplimiento de entregables y mejora sostenida del proceso.',
+        languagesLabel: 'Idiomas',
+        langNative: 'Español (Nativo)',
+        langAdvanced: 'Inglés (Avanzado C1)'
     },
 };
 
@@ -46,6 +52,16 @@ const About = ({ language }) => {
                         <p className="about-text">
                             {t.paragraph2}
                         </p>
+                        
+                        <div className="about-languages">
+                            <h4 className="languages-title">
+                                <Languages size={18} /> {t.languagesLabel}
+                            </h4>
+                            <div className="language-badges">
+                                <span className="lang-badge native">{t.langNative}</span>
+                                <span className="lang-badge advanced">{t.langAdvanced}</span>
+                            </div>
+                        </div>
                     </div>
 
                     <div className="about-cards">

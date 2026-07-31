@@ -1,5 +1,5 @@
 import './Hero.css';
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, Download } from 'lucide-react';
 
 import profilePic from '../assets/profile.jpg';
 
@@ -9,12 +9,14 @@ const heroText = {
         description: 'IT professional with more than 18 years leading development and operations teams, managing end-to-end projects and facilitating agile frameworks (Scrum/Kanban). I combine technical leadership with executive management to align stakeholders, improve predictability, and ensure value delivery.',
         primaryCta: 'See my work',
         secondaryCta: 'Contact',
+        downloadCv: 'Download CV',
     },
     es: {
         subtitle: 'Hola, soy',
         description: 'Profesional IT con más de 18 años liderando equipos de desarrollo y operaciones, gestionando proyectos end-to-end y facilitando marcos ágiles (Scrum/Kanban). Combino liderazgo técnico con gestión ejecutiva para alinear stakeholders, mejorar predictibilidad y asegurar entrega de valor.',
         primaryCta: 'Conoce mi trabajo',
         secondaryCta: 'Contactar',
+        downloadCv: 'Descargar CV',
     },
 };
 
@@ -33,10 +35,13 @@ const Hero = ({ language }) => {
                 </p>
 
                 <div className="hero-cta">
-                    <a href="#about" className="cta-button primary">
+                    <a href="/Resume_GabrielGomez.pdf" target="_blank" rel="noopener noreferrer" className="cta-button primary cv-button">
+                        <Download size={20} /> {t.downloadCv}
+                    </a>
+                    <a href="#about" className="cta-button secondary">
                         {t.primaryCta} <ChevronRight size={20} />
                     </a>
-                    <a href="#contact" className="cta-button secondary">
+                    <a href="#contact" className="cta-button secondary outline">
                         {t.secondaryCta}
                     </a>
                 </div>
