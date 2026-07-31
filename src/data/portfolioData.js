@@ -66,6 +66,32 @@ export const portfolioDataByLanguage = {
         items: ['Git / GitHub', 'Bash deploy scripts', 'FTPS deployment (Ferozo)', 'Linux Server admin', 'ESLint', 'PostCSS', 'Vite build pipeline', 'XAMPP / PHP-CLI', 'Windows Server'],
       },
     ],
+    projectsInfo: [
+      {
+        id: 1,
+        title: 'Sistema Hugo',
+        role: 'Team Leader & Lead Architect',
+        description: 'Integral management platform. I led the development team and architected the solution, ensuring continuous value delivery, robust data handling, and process digitization for critical operational workflows.',
+        tech: ['React', 'PHP 8', 'MySQL', 'TailwindCSS'],
+        image: 'hugo.png',
+      },
+      {
+        id: 2,
+        title: 'ChatLack',
+        role: 'Product Owner & Tech Lead',
+        description: 'An innovative, low-resource alternative to Slack designed for teams with constrained technical budgets. Guided product vision and technical leadership to solve real-time communication needs.',
+        tech: ['Node.js', 'WebSockets', 'React', 'MongoDB'],
+        image: 'chatlack.png',
+      },
+      {
+        id: 3,
+        title: 'Gestor de Mensajería',
+        role: 'Lead Integrator & Project Manager',
+        description: 'A dedicated messaging dashboard seamlessly integrated with a custom Telegram Bot. I coordinated the architecture bridging the backend, frontend UI, and external bot API.',
+        tech: ['React', 'Telegram API', 'PHP', 'Vite'],
+        image: 'gestor.png',
+      },
+    ],
   },
   es: {
     experiencesInfo: [
@@ -130,6 +156,32 @@ export const portfolioDataByLanguage = {
       {
         category: 'DevOps y Herramientas',
         items: ['Git / GitHub', 'Scripts de deploy en Bash', 'Deploy FTPS (Ferozo)', 'Administración de Linux Server', 'ESLint', 'PostCSS', 'Pipeline Vite', 'XAMPP / PHP-CLI', 'Windows Server'],
+      },
+    ],
+    projectsInfo: [
+      {
+        id: 1,
+        title: 'Sistema Hugo',
+        role: 'Team Leader & Lead Architect',
+        description: 'Plataforma integral de gestión. Lideré al equipo de desarrollo y diseñé la arquitectura de la solución, asegurando la entrega continua de valor y la digitalización de flujos operativos críticos.',
+        tech: ['React', 'PHP 8', 'MySQL', 'TailwindCSS'],
+        image: 'hugo.png',
+      },
+      {
+        id: 2,
+        title: 'ChatLack',
+        role: 'Product Owner & Tech Lead',
+        description: 'Alternativa innovadora a Slack para equipos con bajos recursos técnicos/presupuestarios. Guié la visión del producto y el liderazgo técnico para resolver necesidades de comunicación en tiempo real.',
+        tech: ['Node.js', 'WebSockets', 'React', 'MongoDB'],
+        image: 'chatlack.png',
+      },
+      {
+        id: 3,
+        title: 'Gestor de Mensajería',
+        role: 'Lead Integrator & Project Manager',
+        description: 'Dashboard de mensajería integrado con un Bot de Telegram personalizado. Coordiné la arquitectura y el flujo de datos entre el backend, la interfaz frontend y la API externa de Telegram.',
+        tech: ['React', 'Telegram API', 'PHP', 'Vite'],
+        image: 'gestor.png',
       },
     ],
   },
