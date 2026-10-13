@@ -13,6 +13,8 @@ const educationText = {
         certTitle: 'Certifications',
         certs: [
             { title: 'Full-Stack JavaScript', institution: 'Alkemy Labs' },
+            { title: 'Agile Practices using IA', institution: 'Alkemy Labs' },
+            { title: 'Auxiliar en Programación', institution: 'Formación Técnica' },
             { title: 'English Certificate C1 Advanced', institution: 'International English Test' },
             { title: 'Scrum Foundation Professional Certificate (SFPC)', institution: 'CertiProf' },
             { title: 'Agile Coach & Expert Scrum Master', institution: 'LinkedIn Learning / Education IT' },
@@ -31,7 +33,9 @@ const educationText = {
         certTitle: 'Certificaciones',
         certs: [
             { title: 'Full-Stack JavaScript', institution: 'Alkemy Labs' },
-            { title: 'English Certificate C1 Advanced', institution: 'International English Test' },
+            { title: 'Prácticas Ágiles con IA (Agile Practices using IA)', institution: 'Alkemy Labs' },
+            { title: 'Auxiliar en Programación', institution: 'Formación Técnica' },
+            { title: 'Certificado de Inglés C1 Avanzado', institution: 'International English Test' },
             { title: 'Scrum Foundation Professional Certificate (SFPC)', institution: 'CertiProf' },
             { title: 'Agile Coach & Scrum Master Experto', institution: 'LinkedIn Learning / Educación IT' },
             { title: 'Seguridad Informática y Redes IP', institution: 'Fundación Telefónica / Capacitación IT' },

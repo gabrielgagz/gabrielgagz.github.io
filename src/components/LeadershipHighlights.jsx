@@ -3,18 +3,18 @@ import { Target, Users, Zap, Briefcase, GitPullRequest, Code2 } from 'lucide-rea
 
 const highlightData = {
     en: [
-        { icon: <Briefcase size={28} />, title: '18+', subtitle: 'Years IT Experience' },
-        { icon: <Users size={28} />, title: '[X]+', subtitle: 'Team Members Led' },
+        { icon: <Briefcase size={28} />, title: '20+', subtitle: 'Years IT Experience' },
+        { icon: <Users size={28} />, title: '400+', subtitle: 'Students & Mentees Guided' },
         { icon: <GitPullRequest size={28} />, title: 'Agile', subtitle: 'Delivery & Scrum' },
-        { icon: <Target size={28} />, title: '[X]+', subtitle: 'Projects Delivered' },
+        { icon: <Target size={28} />, title: '6+', subtitle: 'Core Systems in Production' },
         { icon: <Zap size={28} />, title: '100%', subtitle: 'Digital Transformation' },
         { icon: <Code2 size={28} />, title: 'Tech', subtitle: 'Leadership' }
     ],
     es: [
-        { icon: <Briefcase size={28} />, title: '18+', subtitle: 'Años Exp. en IT' },
-        { icon: <Users size={28} />, title: '[X]+', subtitle: 'Personas Lideradas' },
+        { icon: <Briefcase size={28} />, title: '20+', subtitle: 'Años Exp. en IT' },
+        { icon: <Users size={28} />, title: '400+', subtitle: 'Estudiantes Guiados' },
         { icon: <GitPullRequest size={28} />, title: 'Agile', subtitle: 'Delivery & Scrum' },
-        { icon: <Target size={28} />, title: '[X]+', subtitle: 'Proyectos Entregados' },
+        { icon: <Target size={28} />, title: '6+', subtitle: 'Sistemas Core en Producción' },
         { icon: <Zap size={28} />, title: '100%', subtitle: 'Transformación Digital' },
         { icon: <Code2 size={28} />, title: 'Líder', subtitle: 'Técnico' }
     ]

@@ -5,7 +5,7 @@ const aboutText = {
     en: {
         title: 'About',
         titleAccent: 'Me',
-        paragraph1: 'I have over 18 years of IT experience, progressing from hands-on software development to leading technical teams and managing complex software initiatives in high-demand environments.',
+        paragraph1: 'I have over 20 years of IT experience, progressing from hands-on software development to leading technical teams and managing complex software initiatives in high-demand environments.',
         paragraph2: 'Currently, I focus on Technical Team Leadership and Project Management. I coordinate multidisciplinary teams to digitalize manual processes, define technical architectures, and oversee the execution of software projects to ensure they solve real business problems.',
         card1Title: 'Team Leadership',
         card1Body: 'I lead engineering teams by structuring daily workflows, establishing clear goals, and actively removing blockers. I focus on team autonomy, direct coordination, and ensuring stable release cycles.',
@@ -20,7 +20,7 @@ const aboutText = {
     es: {
         title: 'Sobre',
         titleAccent: 'Mí',
-        paragraph1: 'Cuento con más de 18 años de trayectoria en IT, evolucionando desde el desarrollo de software hasta liderar equipos técnicos y gestionar iniciativas complejas en entornos de alta demanda.',
+        paragraph1: 'Cuento con más de 20 años de trayectoria en IT, evolucionando desde el desarrollo de software hasta liderar equipos técnicos y gestionar iniciativas complejas en entornos de alta demanda.',
         paragraph2: 'Actualmente me desempeño como Technical Team Leader y Project Manager. Coordino equipos multidisciplinarios para digitalizar procesos manuales, definir arquitecturas técnicas y supervisar la ejecución de proyectos de software asegurando que resuelvan problemas reales de negocio.',
         card1Title: 'Liderazgo de Equipos',
         card1Body: 'Lidero equipos de ingeniería estructurando el trabajo diario, estableciendo objetivos claros y removiendo bloqueos operativos. Me enfoco en la autonomía del equipo, la coordinación directa y en asegurar ciclos de entrega estables.',

@@ -6,14 +6,14 @@ import profilePic from '../assets/profile.jpg';
 const heroText = {
     en: {
         subtitle: 'Hi, I am',
-        description: 'IT professional with more than 18 years leading development and operations teams, managing end-to-end projects and facilitating agile frameworks (Scrum/Kanban). I combine technical leadership with executive management to align stakeholders, improve predictability, and ensure value delivery.',
+        description: 'IT professional with over 20 years leading software development and IT operations teams, managing end-to-end projects and facilitating agile delivery frameworks (Scrum/Kanban). I combine technical leadership with executive management to align stakeholders, improve predictability, and ensure value delivery.',
         primaryCta: 'See my work',
         secondaryCta: 'Contact',
         downloadCv: 'Download Resume',
     },
     es: {
         subtitle: 'Hola, soy',
-        description: 'Profesional IT con más de 18 años liderando equipos de desarrollo y operaciones, gestionando proyectos end-to-end y facilitando marcos ágiles (Scrum/Kanban). Combino liderazgo técnico con gestión ejecutiva para alinear stakeholders, mejorar predictibilidad y asegurar entrega de valor.',
+        description: 'Profesional IT con más de 20 años liderando equipos de desarrollo y operaciones, gestionando proyectos end-to-end y facilitando marcos ágiles (Scrum/Kanban). Combino liderazgo técnico con gestión ejecutiva para alinear stakeholders, mejorar predictibilidad y asegurar entrega de valor.',
         primaryCta: 'Conoce mi trabajo',
         secondaryCta: 'Contactar',
         downloadCv: 'Descargar CV',

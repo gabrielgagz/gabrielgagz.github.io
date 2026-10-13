@@ -5,11 +5,17 @@ import { Briefcase, Code, Rocket } from 'lucide-react';
 import hugoImg from '../assets/projects/hugo.png';
 import chatlackImg from '../assets/projects/chatlack.png';
 import gestorImg from '../assets/projects/gestor.png';
+import portalImg from '../assets/projects/portal.png';
+import carnetImg from '../assets/projects/carnet.png';
+import recaudacionImg from '../assets/projects/recaudacion.png';
 
 const imagesMap = {
     'hugo.png': hugoImg,
     'chatlack.png': chatlackImg,
     'gestor.png': gestorImg,
+    'portal.png': portalImg,
+    'carnet.png': carnetImg,
+    'recaudacion.png': recaudacionImg,
 };
 
 const Projects = ({ language }) => {
